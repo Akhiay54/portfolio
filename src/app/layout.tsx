@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import { Analytics } from "@vercel/analytics/next";
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 import ScrollToTopButton from "@/../utils/ScrollToTopButton";
@@ -92,6 +93,7 @@ export default function RootLayout({
         <ScrollToTopButton />
         <Footer />
         <ToastContainer theme="dark" position="bottom-right" />
+        <Analytics />
       </body>
     </html>
   );
