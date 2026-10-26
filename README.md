@@ -3,6 +3,8 @@
 Personal portfolio for Akhilesh Yadav, an Android engineer. Built with Next.js 15 (App Router),
 TypeScript, Tailwind CSS, and GSAP.
 
+**Live:** https://akhilesh-nitw-portfolio.vercel.app/
+
 ## Stack
 
 - **Framework:** Next.js 15 (App Router, React 18)
