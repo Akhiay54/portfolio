@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Project preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1726"/>
+      <stop offset="0.55" stop-color="#0a1019"/>
+      <stop offset="1" stop-color="#06080c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a8c7fa" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#a8c7fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2534"/>
+      <stop offset="0.35" stop-color="#0b1119"/>
+      <stop offset="1" stop-color="#080c12"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20365a"/>
+      <stop offset="0.55" stop-color="#152741"/>
+      <stop offset="1" stop-color="#101d2e"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a8c7fa" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a8c7fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8c7fa"/>
+      <stop offset="1" stop-color="#7fa9f2"/>
+    </linearGradient>
+    <linearGradient id="fadeBrand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8c7fa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a8c7fa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a8c7fa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+    </pattern>
+    <filter id="phoneShadow" x="-40%" y="-30%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="screenClip"><rect x="734" y="34" width="352" height="782" rx="42"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <ellipse cx="930" cy="400" rx="430" ry="360" fill="url(#glow)"/>
+
+  <g opacity="0.55">
+    <circle cx="240" cy="330" r="104" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+    <circle cx="240" cy="330" r="182" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1.5"/>
+    <circle cx="240" cy="330" r="258" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1.5"/>
+  </g>
+  <g>
+    <circle cx="240" cy="330" r="144" fill="#a8c7fa" fill-opacity="0.07"/>
+    <circle cx="240" cy="330" r="144" fill="none" stroke="#a8c7fa" stroke-opacity="0.22" stroke-width="1.5"/>
+    <circle cx="240" cy="330" r="120" fill="none" stroke="#a8c7fa" stroke-opacity="0.08" stroke-width="1"/>
+    <g stroke="#a8c7fa" stroke-opacity="0.9" stroke-width="4" fill="none">
+        <circle cx="240" cy="330" r="74"/>
+        <ellipse cx="240" cy="330" rx="32" ry="74"/>
+        <path d="M166 330h148M178 288h124M178 372h124"/>
+      </g>
+      <circle cx="290" cy="286" r="9" fill="#a8c7fa"/>
+  </g>
+
+
+  <g transform="translate(-54 64) rotate(-6 880 420)" filter="url(#phoneShadow)">
+    <rect x="720" y="20" width="380" height="810" rx="54" fill="url(#body)" stroke="rgba(255,255,255,0.16)" stroke-width="1.6"/>
+    <rect x="734" y="34" width="352" height="782" rx="42" fill="url(#screen)"/>
+    <rect x="750" y="42" width="320" height="200" rx="34" fill="url(#sheen)" opacity="0.45"/>
+    <g clip-path="url(#screenClip)">
+      <ellipse cx="910" cy="250" rx="230" ry="210" fill="url(#screenGlow)"/>
+      <g transform="translate(-286.6 -13.7) scale(1.24)">
+        
+      <rect x="836" y="132" width="258" height="76" rx="18" fill="#0d1622" stroke="rgba(255,255,255,0.08)"/>
+      <text x="856" y="164" font-family="ui-sans-serif, system-ui" font-size="11" fill="rgba(255,255,255,0.45)" letter-spacing="3">ACTIVE LOCALE</text>
+      <text x="856" y="192" font-family="ui-sans-serif, system-ui" font-size="20" font-weight="700" fill="#ffffff">hi-IN</text>
+      <rect x="1000" y="158" width="72" height="26" rx="13" fill="#a8c7fa" fill-opacity="0.16" stroke="#a8c7fa" stroke-opacity="0.5"/>
+      <text x="1036" y="176" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="11" font-weight="600" fill="#a8c7fa">SYNCED</text>
+
+      <text x="836" y="246" font-family="ui-sans-serif, system-ui" font-size="10" fill="rgba(255,255,255,0.35)" letter-spacing="2">BUNDLES</text>
+      
+        <rect x="836" y="262" width="258" height="40" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.06)"/>
+        <rect x="848" y="272" width="34" height="20" rx="6" fill="#a8c7fa" fill-opacity="0.9"/>
+        <text x="865" y="286" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#08243f">EN</text>
+        <text x="894" y="286" font-family="ui-sans-serif, system-ui" font-size="12" fill="rgba(255,255,255,0.8)">English</text>
+        <path d="M1064 280 l4 4 l8 -9" stroke="#a8c7fa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      
+        <rect x="836" y="310" width="258" height="40" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.06)"/>
+        <rect x="848" y="320" width="34" height="20" rx="6" fill="#a8c7fa" fill-opacity="0.9"/>
+        <text x="865" y="334" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#08243f">HI</text>
+        <text x="894" y="334" font-family="ui-sans-serif, system-ui" font-size="12" fill="rgba(255,255,255,0.8)">हिन्दी</text>
+        <path d="M1064 328 l4 4 l8 -9" stroke="#a8c7fa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      
+        <rect x="836" y="358" width="258" height="40" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.06)"/>
+        <rect x="848" y="368" width="34" height="20" rx="6" fill="#a8c7fa" fill-opacity="0.9"/>
+        <text x="865" y="382" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="#08243f">ES</text>
+        <text x="894" y="382" font-family="ui-sans-serif, system-ui" font-size="12" fill="rgba(255,255,255,0.8)">Español</text>
+        <path d="M1064 376 l4 4 l8 -9" stroke="#a8c7fa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      
+        <rect x="836" y="406" width="258" height="40" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.06)"/>
+        <rect x="848" y="416" width="34" height="20" rx="6" fill="rgba(255,255,255,0.12)" fill-opacity="1"/>
+        <text x="865" y="430" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="rgba(255,255,255,0.55)">FR</text>
+        <text x="894" y="430" font-family="ui-sans-serif, system-ui" font-size="12" fill="rgba(255,255,255,0.4)">Français</text>
+        <circle cx="1072" cy="426" r="7" fill="none" stroke="rgba(255,255,255,0.2)"/>
+      
+        <rect x="836" y="454" width="258" height="40" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.06)"/>
+        <rect x="848" y="464" width="34" height="20" rx="6" fill="rgba(255,255,255,0.12)" fill-opacity="1"/>
+        <text x="865" y="478" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="700" fill="rgba(255,255,255,0.55)">JA</text>
+        <text x="894" y="478" font-family="ui-sans-serif, system-ui" font-size="12" fill="rgba(255,255,255,0.4)">日本語</text>
+        <circle cx="1072" cy="474" r="7" fill="none" stroke="rgba(255,255,255,0.2)"/>
+      
+
+      <rect x="836" y="520" width="258" height="82" rx="16" fill="#0a1119" stroke="rgba(255,255,255,0.07)"/>
+      <text x="850" y="546" font-family="ui-monospace, monospace" font-size="10" fill="rgba(168,199,250,0.85)">manifest.json</text>
+      <rect x="850" y="558" width="130" height="7" rx="4" fill="rgba(255,255,255,0.16)"/>
+      <rect x="850" y="572" width="186" height="7" rx="4" fill="rgba(255,255,255,0.1)"/>
+      <rect x="850" y="586" width="96" height="7" rx="4" fill="rgba(255,255,255,0.1)"/>
+
+      <rect x="836" y="616" width="258" height="44" rx="14" fill="url(#cta)"/>
+      <text x="965" y="643" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="700" letter-spacing="2" fill="#08243f">PUBLISH UPDATE</text>
+    
+      </g>
+    </g>
+    <rect x="872" y="46" width="108" height="12" rx="6" fill="#05070b"/>
+    <text x="762" y="110" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="600" fill="rgba(255,255,255,0.5)">9:41</text>
+    <rect x="1000" y="47" width="40" height="10" rx="5" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <g transform="translate(-112 132)">
+      <g filter="url(#cardShadow)" transform="rotate(5 610 250)" opacity="0.95">
+        <rect x="500" y="186" width="220" height="128" rx="20" fill="#0b131e" stroke="rgba(168,199,250,0.28)"/>
+        <circle cx="534" cy="222" r="13" fill="#a8c7fa" fill-opacity="0.16" stroke="#a8c7fa" stroke-opacity="0.6"/>
+        <path d="M528 222 l4 4 l8 -9" stroke="#a8c7fa" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="556" y="227" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="600" fill="rgba(255,255,255,0.85)">Bundle published</text>
+        <rect x="556" y="242" width="134" height="7" rx="4" fill="rgba(255,255,255,0.14)"/>
+        <rect x="556" y="258" width="96" height="7" rx="4" fill="rgba(255,255,255,0.08)"/>
+        <text x="520" y="296" font-family="ui-monospace, monospace" font-size="11" fill="rgba(168,199,250,0.7)">v42 · 20+ locales</text>
+      </g>
+    </g>
+</svg>

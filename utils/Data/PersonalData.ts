@@ -1,0 +1,27 @@
+export const personalData = {
+  name: "Akhilesh Yadav",
+  profile: "/pic1.jpg",
+  designation: "Android Engineer",
+  designationAlternateWords: [
+    "Android Engineer.",
+    "Kotlin Developer.",
+    "Compose Developer.",
+    "Open Source Maintainer.",
+    "Problem Solver.",
+  ],
+  description:
+    "Senior Android Engineer with 4+ years building and scaling consumer mobile products. Strong in Kotlin, Android, gRPC, Jetpack Compose, KMM, and mobile platform architecture, with a track record of end-to-end feature ownership and measurable product impact — from a remote kill-switch adopted across 4+ OEMs to a KMM localization system covering 20+ languages.",
+  email: "akhilesh.yadav.nitw@gmail.com",
+  phone: "+91 90090 65507",
+  address: "Bangalore, India",
+  github: "https://github.com/Akhiay54",
+  openSource: "https://github.com/Polylex",
+  linkedIn: "https://www.linkedin.com/in/akhiay54/",
+  devUsername: "Akhiay54",
+  facebook: "",
+  Instagram: "",
+  twitter: "",
+  stackOverflow: "",
+  leetcode: "",
+  resume: "/resume.pdf",
+};

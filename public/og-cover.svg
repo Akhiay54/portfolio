@@ -1,0 +1,37 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1080" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1018"/>
+      <stop offset="1" stop-color="#050506"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210 130) rotate(31) scale(420 320)">
+      <stop stop-color="#7FA9F2" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#7FA9F2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 560) rotate(220) scale(420 300)">
+      <stop stop-color="#A8C7FA" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#A8C7FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="120" y1="0" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8C7FA"/>
+      <stop offset="1" stop-color="#A8C7FA" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <rect x="76" y="76" width="1048" height="478" rx="28" stroke="#1E2A3D" stroke-width="2"/>
+
+  <circle cx="122" cy="132" r="22" fill="#0E1A2B" stroke="#2A3B55" stroke-width="2"/>
+  <text x="122" y="140" fill="#A8C7FA" font-size="20" font-weight="700" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif">AY</text>
+  <text x="160" y="139" fill="#7C8CA6" font-size="17" letter-spacing="3" font-family="Helvetica Neue, Arial, sans-serif">PORTFOLIO</text>
+
+  <text x="120" y="286" fill="#F4F7FC" font-size="68" font-weight="700" letter-spacing="-1.5" font-family="Helvetica Neue, Arial, sans-serif">Akhilesh Yadav</text>
+  <rect x="122" y="322" width="280" height="3" fill="url(#rule)"/>
+  <text x="120" y="390" fill="#A8C7FA" font-size="38" font-weight="600" font-family="Helvetica Neue, Arial, sans-serif">Android Engineer</text>
+  <text x="120" y="444" fill="#93A2B8" font-size="25" font-family="Helvetica Neue, Arial, sans-serif">Kotlin · Jetpack Compose · Kotlin Multiplatform</text>
+
+  <text x="120" y="502" fill="#5F6E84" font-size="21" font-family="Helvetica Neue, Arial, sans-serif">4+ years shipping production Android apps</text>
+</svg>

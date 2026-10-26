@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Project preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1726"/>
+      <stop offset="0.55" stop-color="#0a1019"/>
+      <stop offset="1" stop-color="#06080c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a8c7fa" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#a8c7fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2534"/>
+      <stop offset="0.35" stop-color="#0b1119"/>
+      <stop offset="1" stop-color="#080c12"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20365a"/>
+      <stop offset="0.55" stop-color="#152741"/>
+      <stop offset="1" stop-color="#101d2e"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a8c7fa" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a8c7fa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8c7fa"/>
+      <stop offset="1" stop-color="#7fa9f2"/>
+    </linearGradient>
+    <linearGradient id="fadeBrand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a8c7fa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a8c7fa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#a8c7fa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+    </pattern>
+    <filter id="phoneShadow" x="-40%" y="-30%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <clipPath id="screenClip"><rect x="734" y="34" width="352" height="782" rx="42"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <ellipse cx="930" cy="400" rx="430" ry="360" fill="url(#glow)"/>
+
+  <g opacity="0.55">
+    <circle cx="240" cy="330" r="104" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+    <circle cx="240" cy="330" r="182" fill="none" stroke="rgba(255,255,255,0.055)" stroke-width="1.5"/>
+    <circle cx="240" cy="330" r="258" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1.5"/>
+  </g>
+  <g>
+    <circle cx="240" cy="330" r="144" fill="#a8c7fa" fill-opacity="0.07"/>
+    <circle cx="240" cy="330" r="144" fill="none" stroke="#a8c7fa" stroke-opacity="0.22" stroke-width="1.5"/>
+    <circle cx="240" cy="330" r="120" fill="none" stroke="#a8c7fa" stroke-opacity="0.08" stroke-width="1"/>
+    <path d="M240 412c-46-30-70-57-70-86a34 34 0 0 1 70-12 34 34 0 0 1 70 12c0 29-24 56-70 86z" fill="none" stroke="#a8c7fa" stroke-opacity="0.9" stroke-width="4"/>
+
+  </g>
+
+
+  <g transform="translate(-54 64) rotate(-6 880 420)" filter="url(#phoneShadow)">
+    <rect x="720" y="20" width="380" height="810" rx="54" fill="url(#body)" stroke="rgba(255,255,255,0.16)" stroke-width="1.6"/>
+    <rect x="734" y="34" width="352" height="782" rx="42" fill="url(#screen)"/>
+    <rect x="750" y="42" width="320" height="200" rx="34" fill="url(#sheen)" opacity="0.45"/>
+    <g clip-path="url(#screenClip)">
+      <ellipse cx="910" cy="250" rx="230" ry="210" fill="url(#screenGlow)"/>
+      <g transform="translate(-286.6 -13.7) scale(1.24)">
+        
+      <text x="965" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="13" font-weight="700" fill="rgba(255,255,255,0.9)" letter-spacing="2">DISCOVER</text>
+      <rect x="1030" y="152" width="64" height="24" rx="12" fill="#a8c7fa" fill-opacity="0.16" stroke="#a8c7fa" stroke-opacity="0.45"/>
+      <text x="1062" y="168" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="10" font-weight="600" fill="#a8c7fa">OFFLINE</text>
+
+      <g transform="rotate(4 965 420)" opacity="0.55">
+        <rect x="848" y="196" width="234" height="300" rx="26" fill="#121b28" stroke="rgba(255,255,255,0.1)"/>
+      </g>
+      <g transform="rotate(-3 965 420)" opacity="0.8">
+        <rect x="842" y="212" width="246" height="300" rx="26" fill="#0f1825" stroke="rgba(255,255,255,0.12)"/>
+      </g>
+
+      <g filter="url(#cardShadow)">
+        <rect x="836" y="230" width="258" height="296" rx="26" fill="#111a27" stroke="rgba(255,255,255,0.14)"/>
+        <rect x="836" y="230" width="258" height="188" rx="26" fill="#7fa9f2" fill-opacity="0.16"/>
+        <circle cx="965" cy="312" r="46" fill="rgba(255,255,255,0.12)"/>
+        <circle cx="965" cy="298" r="18" fill="rgba(255,255,255,0.35)"/>
+        <path d="M932 352c0-18 15-30 33-30s33 12 33 30z" fill="rgba(255,255,255,0.35)"/>
+        <rect x="930" y="370" width="70" height="8" rx="4" fill="rgba(255,255,255,0.35)"/>
+        <rect x="944" y="386" width="42" height="7" rx="3.5" fill="rgba(255,255,255,0.18)"/>
+        <rect x="858" y="442" width="150" height="8" rx="4" fill="rgba(255,255,255,0.18)"/>
+        <rect x="858" y="460" width="200" height="7" rx="4" fill="rgba(255,255,255,0.09)"/>
+        <rect x="858" y="476" width="160" height="7" rx="4" fill="rgba(255,255,255,0.09)"/>
+        <rect x="858" y="496" width="56" height="20" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
+               <text x="886" y="510" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="9" fill="rgba(255,255,255,0.6)">Kotlin</text><rect x="920" y="496" width="42" height="20" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
+               <text x="941" y="510" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="9" fill="rgba(255,255,255,0.6)">Hilt</text><rect x="982" y="496" width="42" height="20" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
+               <text x="1003" y="510" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="9" fill="rgba(255,255,255,0.6)">Room</text>
+      </g>
+
+      <g transform="translate(0 8)">
+        <circle cx="898" cy="576" r="27" fill="#111a27" stroke="rgba(255,255,255,0.14)"/>
+        <path d="M889 567l18 18M907 567l-18 18" stroke="rgba(255,255,255,0.55)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="1032" cy="576" r="27" fill="url(#cta)"/>
+        <path d="M1032 588c-9-6-13-11-13-16a6.5 6.5 0 0 1 13-2 6.5 6.5 0 0 1 13 2c0 5-4 10-13 16z" fill="#08243f"/>
+      </g>
+    
+      </g>
+    </g>
+    <rect x="872" y="46" width="108" height="12" rx="6" fill="#05070b"/>
+    <text x="762" y="110" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="600" fill="rgba(255,255,255,0.5)">9:41</text>
+    <rect x="1000" y="47" width="40" height="10" rx="5" fill="rgba(255,255,255,0.4)"/>
+  </g>
+
+  <g transform="translate(-90 130)">
+      <g filter="url(#cardShadow)" transform="rotate(6 590 220)">
+        <rect x="486" y="164" width="208" height="110" rx="18" fill="#0b131e" stroke="rgba(168,199,250,0.24)"/>
+        <text x="506" y="194" font-family="ui-sans-serif, system-ui" font-size="10" fill="rgba(255,255,255,0.42)" letter-spacing="2">CACHED LOCALLY</text>
+        <text x="506" y="224" font-family="ui-sans-serif, system-ui" font-size="22" font-weight="700" fill="rgba(255,255,255,0.92)">128</text>
+        <text x="558" y="224" font-family="ui-sans-serif, system-ui" font-size="11" fill="rgba(255,255,255,0.4)">profiles ready</text>
+        <rect x="506" y="240" width="140" height="6" rx="4" fill="rgba(255,255,255,0.12)"/>
+      </g>
+    </g>
+</svg>
